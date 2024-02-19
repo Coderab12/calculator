@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(81, 72, 131);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(50vh + 225px);
+}
+input{
+    text-align: left;
+    padding: 12px; 
+    border-radius: 18px;
+    border: none;
+    color: black;
+}
+button{
+    margin-top: 32px;
+    padding: 12px 14px;
+    background-color: yellow;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+    text-align: center;
+}
+.row1{
+    display: flex;
+    gap: 28px;
+}
+.row2{
+    display: flex;
+    gap: 28px;
+}
+.row3{
+    display: flex;
+    gap: 28px;
+}
+.row4{
+    display: flex;
+    gap: 28px;
+}
+button,input{
+    transform: scale(1.5);
+}
+.CE{
+    width: 40px;
+}
+.add{
+    height: 35px;
+}
+.milti{
+    height: 35px; 
+}
+.sub{
+    width: 35px;
+}
+.divide{
+    width: 35px;
+}
